@@ -13,6 +13,7 @@ namespace Picadelli.Web
         {
             var usuario = TxtEmail.Text;
             var password = TxtPassword.Text;
+            Response.Redirect("Default.aspx");
         }
     }
 }
