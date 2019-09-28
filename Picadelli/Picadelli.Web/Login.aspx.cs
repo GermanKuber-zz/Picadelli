@@ -1,9 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.UI;
-using System.Web.UI.WebControls;
 
 namespace Picadelli.Web
 {
@@ -12,6 +7,12 @@ namespace Picadelli.Web
         protected void Page_Load(object sender, EventArgs e)
         {
 
+        }
+
+        protected void TxtLogin_Click(object sender, EventArgs e)
+        {
+            var usuario = TxtEmail.Text;
+            var password = TxtPassword.Text;
         }
     }
 }
